@@ -1,0 +1,27 @@
+<div class="container">
+  <app-header></app-header>
+  <p>welcome {{name.toUpperCase()}}</p>
+  <button (click)="increment()">increase</button>
+  <button (click)="decrease()">decrease</button>
+  <p>count: {{conunt}}</p>
+  @if (showMessage) {
+    <p>Angular is awesome😎</p>
+  }
+  <ul>
+    @for (fruit of fruitList; track fruit) {
+      <li>{{fruit}}</li>
+    }
+  </ul>
+  <p>isDisabled = {{ isDisabled }}</p>
+
+  <button [disabled]="isDisabled">Click me</button>
+
+  <input [(ngModel)]="username" placeholder="enter username ">
+  <p>hello {{username}}</p>
+
+  <button (click)="toggleTheme()">
+  Switch to {{ theme() === 'light' ? 'dark' : 'light' }}
+</button>
+
+<p>Current theme: {{ theme() }}</p>
+</div>

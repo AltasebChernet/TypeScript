@@ -1,0 +1,41 @@
+:host {
+    display: flex;
+    flex-direction: column; /* stack items vertically */
+    justify-content: center; /* center vertically */
+    align-items: center;     /* center horizontally */
+    min-height: 100vh;       /* take full viewport height */
+    text-align: center;      /* optional: center text inside */
+}
+
+app-header {
+    display: block;
+    margin-bottom: 20px;
+    color: rgb(86, 147, 227);
+    font-size: 30px;
+}
+
+button {
+    background-color: rgb(18, 221, 18);
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+button:hover {
+    background-color: rgb(12, 158, 12);
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}

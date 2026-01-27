@@ -1,7 +1,6 @@
 
 # ✅TYPESCRIPT FILE
 
-
 ```ts
 /* =========================================
    1. BASIC VARIABLE WITH TYPE
