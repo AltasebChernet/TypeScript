@@ -205,13 +205,6 @@ function throwError(message: string): never {
 let someValue: unknown = "TypeScript";
 let strLength: number = (someValue as string).length;
 
-// ---------- MODULE EXPORT ----------
-export function sayHello(name: string): string {
-  return `Hello ${name}`;
-}
-
-// ---------- MODULE IMPORT (example) ----------
-// import { sayHello } from "./file";
 
 // =======================================
 // END OF TYPESCRIPT MASTER FILE
